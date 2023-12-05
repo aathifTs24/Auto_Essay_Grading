@@ -1,7 +1,9 @@
 # Research - Automated Essay Grading
 > A Deep Learning model that predicts the score of a given input essay. 
 
-This project constitutes a one-year research initiative at my university, focusing on the domains of deep learning and natural language processing (NLP). I have developed a model utilizing multilayer perceptron (MLP) and NLP techniques to assess and grade essays written by secondary students. The accompanying screenshot illustrates the final output of the model
+Developed an innovative Auto Essay Grading system over a one-year period, employing cutting-edge Deep Learning and Natural Language Processing (NLP) techniques. The primary objective of this research initiative was to enhance student learning outcomes while alleviating the workload on teachers. Implemented a Hybrid Approach that seamlessly integrates rule-based and machine-learning methodologies to achieve a comprehensive and accurate essay evaluation.
+
+Utilized a Multi-Layer Perceptron (MLP) to construct the grading model, incorporating various preprocessing techniques to transform words into vectors. The system evaluates essays based on grammar, style, content, and the underlying intent behind student writing. Significantly contributed to the education technology landscape by creating a solution that not only assesses essays but also provides detailed feedback for improvement.
 
 ### Performance
 The accuracy is calculated by **Quadratic Weighted Kappa(QWK)**, which measures the agreement between two raters. My model achieves a **QWK score of 0.80** combined of 8 topics. The model architecture consists of 2 MLP (multi-layer perceptron) layers with a Dense output layer.
